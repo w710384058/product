@@ -1,3 +1,6 @@
+import os #operating system
+
+if os.path.isfile('products.csv')
 #讀取檔案
 products=[]
 with open ('products.csv','r',encoding='utf-8') as f:
